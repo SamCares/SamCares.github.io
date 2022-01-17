@@ -1,0 +1,51 @@
+/* Imported by Fatodu Samuel for fonts */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ariyibi Baseet created this for desktop background image of the header */
+.bg-d-image-header {
+  background-image: url("../public/img/desktop/image-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* Damilola Idris Created this for desktop bakground image */
+.left {
+  background-image: url("../public/img/desktop/image-graphic-design.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.right {
+  background-image: url("../public/img/desktop/image-photography.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* inserted by Fatodu Samuel for the testimonial cards */
+.testimonialImg {
+  @apply rounded-full w-1/5 mx-auto;
+}
+
+.testimonialPara {
+  @apply text-center text-base text-primary-300
+                font-small font-semibold;
+}
+
+.testimonialName {
+  @apply font-black text-lg font-big text-primary-400 pb-1;
+}
+
+.testimonialDes {
+  @apply text-xs font-small text-primary-100 font-semibold;
+}
+
+/*For "We Are Creatives" heading*/
+.creatives {
+  @apply uppercase text-white font-bold font-big text-center text-3xl xxs:text-4xl xs:text-5xl lg:text-6xl 2xl:text-8xl tracking-widest mt-16 2xl:mt-32 mb-8 xl:mb-24 2xl:mb-40;
+}

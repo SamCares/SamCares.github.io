@@ -1,0 +1,23 @@
+{
+  "name": "Group-4-Capstone-Project-2",
+  "version": "1.0.0",
+  "description": "Hello everyone, You are welcome to Group 4 Capstone Project 2",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwind build src/style.css -o public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamCares/Group-4-Capstone-Project-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamCares/Group-4-Capstone-Project-2/issues"
+  },
+  "homepage": "https://github.com/SamCares/Group-4-Capstone-Project-2#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
